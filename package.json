@@ -4,7 +4,7 @@
   "description": "A javascript solution to demonstrate Object Oriented Programming in Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/tests.js"
+    "test": "mocha test/tests.js --compilers js:babel-register"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,16 @@
   "bugs": {
     "url": "https://github.com/idrisadetunmbi/oop-shopping-cart/issues"
   },
-  "homepage": "https://github.com/idrisadetunmbi/oop-shopping-cart#readme"
+  "homepage": "https://github.com/idrisadetunmbi/oop-shopping-cart#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.9.0",
+    "mocha": "^4.0.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  }
 }
