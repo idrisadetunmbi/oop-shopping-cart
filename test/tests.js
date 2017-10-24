@@ -1,6 +1,9 @@
-const ShoppingCart = require('./shopping_cart.js').shopping_cart;
-const Shop = require('./shop.js').shop;
-const assert = require('chai').assert;
+import chai from 'chai';
+
+import ShoppingCart from '../src/shopping_cart';
+import Shop from '../src/shop';
+
+const { assert } = chai;
 
 describe('ShoppingCart', () => {
 
