@@ -1,0 +1,25 @@
+{
+  "name": "oop_shopping_cart",
+  "version": "1.0.0",
+  "description": "A javascript solution to demonstrate Object Oriented Programming in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idrisadetunmbi/oop-shopping-cart.git"
+  },
+  "keywords": [
+    "Andela",
+    "Bootcamp",
+    "Javascript",
+    "OOP"
+  ],
+  "author": "Idris Adetunmbi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idrisadetunmbi/oop-shopping-cart/issues"
+  },
+  "homepage": "https://github.com/idrisadetunmbi/oop-shopping-cart#readme"
+}
